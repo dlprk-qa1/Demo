@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "mfadelete1" {
+resource "aws_s3_bucket" "mfadelete12" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
