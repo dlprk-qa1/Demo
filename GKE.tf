@@ -1,4 +1,4 @@
-resource "google_container_cluster" "example" {
+resource "google_container_cluster" "example1" {
   name               = var.name
   location           = var.location
   project            = data.google_project.project.name
